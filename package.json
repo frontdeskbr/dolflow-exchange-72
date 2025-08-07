@@ -8,6 +8,10 @@
     "build": "webpack --config webpack.config.js",
     "sort": "npx prettier --write src"
   },
+  "scripts": {
+  "dev": "vite",
+  "build:dev": "vite build --mode development"
+},
   "keywords": [],
   "author": {
     "name": "TailAdmin",
